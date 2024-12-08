@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 body{
-    /* background-color: #555; */
+    background-color: #555;
 }
 nav{
     width: 1400px;
@@ -14,7 +14,6 @@ nav{
 div#navbar{
     width: 1200px;
     height: 60px;
-    /* background-color: aliceblue; */
     margin-left: 85px; */
 }
 div#navbar > ul{
@@ -49,9 +48,72 @@ div#first-header > p{
     color: #fff;
     font-weight: 500;
 }
-div#video > video{
-    width: 100%;
-    /* height: 200px; */
+div#first-image{
+    max-width: 105%;
+    min-width: 50%;
+    max-height: 700px;
+    min-height: 300px;
+    /* width: 1400px; */
+
 }
+div#first-image > img{
+    max-width: 105%;
+    min-width: 90%;
+    max-height: 700px;
+    min-height: 600px;
+}
+div#gearup{
+    max-width: 1200px%;
+    min-width: 1100px;
+    max-height: 4500px;
+    min-height: 300px;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    /* overflow:scroll; */
+}
+div#gearup > div#wrapper {
+    padding-top: 100px;
+}
+div#gearup > div#wrapper  p#para-one{
+   font-size: 2em;
+   /* font-weight: 1; */
+ color: #fff;
 
-
+}
+div#gearup > div#wrapper h2{
+   font-size: 6em;
+font-weight: 900;
+color: #44d62c;
+}
+div#gearup > div#wrapper p{
+    font-size: 1.7em;
+    text-align: center;
+ /* font-weight: 900; */
+ color: #fff;
+ }
+ div#image-3{
+    max-width: 100%;
+    min-width: 90%;
+    margin-top: -10px;
+ }
+ div#naga{
+    max-width: 100%;
+    min-width: 90%;
+    max-height: 300px;
+    min-height: 250px;
+    background-color: #44d62c;
+    margin-top: -5px;
+    text-align: center;
+    padding-top: 100px;
+ }
+ div#naga > h3{
+    font-size: 2.5rem;
+ }
+ div#naga p{
+    padding-top: 20px;
+    font-weight: 300;
+ }
+ div#naga a{
+    padding-top: 20px;
+ }
